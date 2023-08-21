@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: lightpink;
+  display: flex;
+}
+.navigation {
+  display: flex;
+  gap: 0 15px;
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  background-color: pink;
+  color: rgb(70, 70, 70);
+}
+
+nav {
+  padding: 10px;
+  display: none;
+}
+
+@media (max-width: 630px) {
+  .nav {
+    display: block;
+  }
+  .navigation {
+    display: none;
+  }
+}
